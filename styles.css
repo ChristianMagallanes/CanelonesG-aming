@@ -624,28 +624,31 @@ footer{
     .marcas{
         display: none;
     }
-    .MiniDestacadoVertical{
-        width: 90%;
-        height: 50%;
-    }
+    
    .ProductosDestacados{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+
    }
+   .MiniDestacadoVertical{
+    width: 90%;
+    height: 50%;
+}
    .DestacadosHorizontal{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 10px;
+    gap: 1rem;
    }
    .MiniDestacadoHorizontal1{
-    height: 42%;
-    width: 44%;
+    margin: 0;
+    height: 52%;
+    width: 64%;
    }
    .MiniDestacadoHorizontal2{
-    height: 42%;
-    width: 44%;
+    height: 52%;
+    width: 64%;
    }
 } 
