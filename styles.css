@@ -610,7 +610,7 @@ footer{
 
 /*      TAMAÑO A TELEFENO       */
 
-@media (max-width: 420px){
+@media (max-width: 480px){
     
     header{
         height: 20vh;
@@ -624,7 +624,7 @@ footer{
         font-size: 24px;
     }
     .header__btn{
-        padding: 5px;
+        padding: 3px;
         margin: 0;
     }
     .parrafo__header{
