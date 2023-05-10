@@ -610,30 +610,5 @@ footer{
 
 /*      TAMAÑO A TELEFENO       */
 
-@media (max-width: 750px){
-    
-    header{
-        height: 25vh;
-    }
-    .content__header{
-        box-shadow: none;
-        width: 300px;
-        padding: 0;
-    }
-    .title__header{
-        font-size: 24px;
-    }
-    .header__btn{
-        padding: 0;
-        width: 10rem;
-        margin-bottom: 20px;
-    }
-    .parrafo__header{
-        font-size: 18px;
-    }
-    .header__btn a{
-        font-size: 18px;
-        padding: 5px;
-    }
-}
+
     
