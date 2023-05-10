@@ -610,17 +610,22 @@ footer{
 
 /*      TAMAÑO A TELEFENO       */
 
-@media (max-width: 400px){
+@media (max-width: 414px){
     
-    .navbar{
-        display: block;
-    }
-   
     header{
         height: 20vh;
     }
+    .content__header{
+        box-shadow: none;
+        width: 300px;
+        padding: 0;
+    }
     .title__header{
-        font-size: 28px;
+        font-size: 24px;
+    }
+    .header__btn{
+        padding: 5px;
+        margin: 0;
     }
     .parrafo__header{
         font-size: 18px;
