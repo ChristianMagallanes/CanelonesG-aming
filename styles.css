@@ -613,7 +613,7 @@ footer{
 @media (max-width: 700px){
     
     header{
-        height: 20vh;
+        height: 25vh;
     }
     .content__header{
         box-shadow: none;
