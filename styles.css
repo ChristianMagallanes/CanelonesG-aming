@@ -611,6 +611,13 @@ footer{
 /*      TAMAÑO A TELEFENO       */
 
 @media screen and (max-width: 480px) {
+    .navbar-collapse{
+        margin: 10px;
+    }
+    .navbar li {
+        box-shadow: none;
+        width: 100%;
+    }
     header{
         height: 20vh;
     }
@@ -618,9 +625,10 @@ footer{
         display: flex;
         width: 25rem;
         margin: 0;
+        box-shadow: none;
     }
     .title__header{
-        font-size: 1px;
+        font-size: 24px;
     }
     .parrafo__header{
         font-size: 18px;
