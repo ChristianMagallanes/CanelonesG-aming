@@ -1,0 +1,640 @@
+/*
+1. Encabezado
+2. navbar
+3. marcas
+4. productos destacados nivel 1
+5. productos nivel 2
+6. equipos
+7. card
+8. productos.html
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    background-color: #000000;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/*1. Encabezado*/
+
+/*1. LOGO*/
+.logo{
+    float: left;
+    width: 4rem;
+    height: 4rem;
+    margin:7px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+/*   HEADER DEL INDEX, QUIENES SOMOS, CONTACTO   */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/destacado.png);
+    background-repeat: no-repeat;
+    background-position:100%;
+    background-color: black;
+    box-shadow: 0px 0px 15px rgb(243, 32, 239);
+    height: 60vh;
+}
+
+
+/*    HEADER DE EQUIPOS.HTML   */
+
+.header__equipos {
+    background-image: url(./prueba.jpeg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1rem;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position:100%;
+    background-size: 50%;
+    background-color: black;
+    box-shadow: 0px 0px 15px rgb(243, 32, 239);
+    
+}
+
+
+/*    HEADER DE PRODUCTOS.HTML   */
+
+.header__productos {
+    height: 100vh;
+    background-image: url(./assets/destacado2.png);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 1rem;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position:100%;
+    background-size: 40%;
+    background-color: black; 
+    box-shadow: 0px 0px 15px rgb(243, 32, 239);
+    
+}
+
+
+
+.header__destacado{
+    height: 100%;
+    
+}
+
+.content__header{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    height: 300px;
+    box-shadow: 0px 0px 15px white;
+    
+}
+
+.title__header{
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    font-size: 64px;
+    
+}
+.parrafo__header{
+    color: #fff;
+    font-size: 24px;
+}
+.header__btn{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    width: 14rem;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.btn{
+    color: black;
+    font-size: 24px;
+}
+/*2. navbar*/
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    align-items: center;
+    padding: .1rem;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px white;
+
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: 0 .5rem;
+    font-family: 'Julius Sans One';
+    
+}
+
+.navbar ul{
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    
+}
+
+.navbar li{
+    background-color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 5px;
+    display: inline-block;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+
+
+
+/*3.marcas*/
+.container__marcas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.marcas{
+    height: 20rem;
+    width: 100%;
+    margin: 20px;
+    gap: 10px;
+    border-radius: 1rem;
+}
+
+.PrimeraMarca{
+    background-image: url(./assets/marca1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.SegundaMarca{
+    background-image: url(./assets/marca2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+/*4.productos destacados nivel 1*/
+.ProductosDestacados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.titulo{
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+/*   DESTACADOS   */
+
+.MiniDestacadoVertical{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 35rem;
+    width: 30rem;
+    background-image: url(./assets/img/card1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    border-radius: 20px;
+    
+}
+
+.MiniDestacadoVertical2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 35rem;
+    width: 30rem;
+    background-image: url(./assets/img/card2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    border-radius: 20px;
+    
+}
+
+.MiniDestacadoHorizontal1{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: rgba(3, 3, 3, 0.267);
+    background-image: url(./assets/img/card6.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-radius: 30px;
+    height: 24rem;
+    width: 45rem;
+}
+
+.MiniDestacadoHorizontal2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    background-image: url(./assets/img/car3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    border-radius: 30px;
+    height: 24rem;
+    width: 45rem;
+}
+
+.MiniDestacadoHorizontal3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    background-image: url(./assets/img/card8.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-radius: 30px;
+    height: 24rem;
+    width: 45rem;
+}
+.MiniDestacadoHorizontal4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./assets/img/card5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-radius: 30px;
+    height: 24rem;
+    width: 45rem;
+}
+
+
+
+/*  CONTENIDO DE LOS DESTACADOS  */
+
+.MiniContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TitleMini {
+    color: #fff;
+}
+.ParrafoMini {
+    color: #fff;
+}
+.Btn{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.493);
+    box-shadow: 0px 0px 15px white;
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 2rem;
+}
+
+
+.slider__productos{
+    background-image: url(./assets/bannerrrrr.png);
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+/*productos*/
+
+.slide__productosD{
+    background-image: url(./assets/consolas22.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 60vh;
+}
+
+.DestacadosHorizontal{
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    gap: 50px;
+}
+
+
+.baner{
+    height: 100%;
+}
+
+
+/*5.productos nivel 2*/
+.slider__productos{
+    height: 50vh;
+    margin: 1rem 0 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 5rem;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: black;
+    box-shadow: 0px 0px 15px white;
+}
+
+
+
+
+/*6.equipos*/
+.equipos__subtitle{
+    text-align: center;
+    color: rgb(242, 236, 236);
+    padding: 20px;
+    font-size: 58px;
+}
+.equipos__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/*7.cards*/
+.card{
+    width: 16rem;
+    background-color: rgb(3, 3, 3);
+    border-radius: 20px 0 ;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.card img{
+    width: 100%;
+    padding: 10px;
+}
+
+.card p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.card__btn{
+    color: black;
+    font-size: 20px;
+    background-color: #ff2020;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+}
+.header__btn:hover{
+    background-color: #ffffff;
+    color: #fff;
+    box-shadow: 0px 0px 15px rgb(243, 32, 32);
+}
+
+.card__btn, .Btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0px 0px 15px rgb(243, 32, 32);
+}
+
+.card> div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/*8.productos.html*/
+.container__productos {
+    background-color: rgb(0, 0, 0);
+    padding: 5rem 0;
+}
+
+
+.productos__Mous{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.teclados {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cards{
+    width: 14rem;
+    height: 20rem;
+    background-color: rgb(2, 2, 2);
+    border-radius: 20px 0 ;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+    
+}
+
+.cards img{
+    width: 100%;
+    padding: 10px;
+}
+
+.cards> div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.cards, .card p{
+    color: #fff;
+    text-align: center;
+}
+
+.banerProductos-Teclado{
+    width: 550px;
+    height: 300px;
+    background-image: url(./assets/teclados2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius:1rem ;
+    margin-left: .10rem;
+    box-shadow: 0px 0px 15px rgb(255, 0, 0);
+}
+
+.banerProductos-Mous{
+    width: 550px;
+    height: 300px;
+    background-image: url(./assets/mouse2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border-radius:1rem ;
+    margin-right: .10rem;
+    box-shadow: 0px 0px 15px rgb(243, 32, 32);
+}
+
+
+.productos__teclado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.BanerConsolas {
+    background-image: url(./assets/baner-vertical.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 550px;
+    height: 800px;
+    border-radius:1rem ;
+    margin-right: 20px;
+}
+
+.productos__consolas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container__consolas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-quienesSomos{
+    padding: 50px;
+    text-align: center;
+}
+
+.informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 30px 0;
+    height: 80vh;
+}
+
+.informacion-parrafo{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+}
+
+.container-contacto{
+    padding: 50px;
+    text-align: center;
+}
+
+.informacion-redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 251, 251);
+    text-align: center;
+    border-radius: 30px 0;
+    height: 80vh;
+}
+.redes__contactos{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.redes__icon{
+    height: 80px;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 25%;
+    height: 8%;
+}
+.info-p{
+    font-size: 18px;
+}
+
+
+
+
+/*      TAMAÑO A TELEFENO       */
+
+@media (max-width: 400px){
+    
+    .navbar{
+        display: block;
+    }
+   
+    header{
+        height: 20vh;
+    }
+    .title__header{
+        font-size: 28px;
+    }
+    .parrafo__header{
+        font-size: 18px;
+    }
+    .header__btn a{
+        font-size: 18px;
+        padding: 5px;
+    }
+}
+    
