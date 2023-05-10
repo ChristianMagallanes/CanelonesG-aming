@@ -610,7 +610,7 @@ footer{
 
 /*      TAMAÑO A TELEFENO       */
 
-@media (max-width: 400px){
+@media (max-width: 750px){
     
     header{
         height: 25vh;
