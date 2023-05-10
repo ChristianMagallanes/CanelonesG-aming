@@ -619,24 +619,33 @@ footer{
         width: 100%;
     }
     header{
-        height: 30vh;
+        display: none;
     }
-    .content__header{
-        display: flex;
-        width: 25rem;
-        margin: 0;
-        box-shadow: none;
+    .marcas{
+        display: none;
     }
-    .title__header{
-        font-size: 24px;
+    .MiniDestacadoVertical{
+        width: 90%;
+        height: 50%;
     }
-    .parrafo__header{
-        font-size: 18px;
-    }
-    .header__btn{
-        margin: 0;
-        padding: 1px;
-        width: 8rem;
-    }
-}
-    
+   .ProductosDestacados{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   }
+   .DestacadosHorizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+   .MiniDestacadoHorizontal1{
+    height: 42%;
+    width: 44%;
+   }
+   .MiniDestacadoHorizontal2{
+    height: 42%;
+    width: 44%;
+   }
+} 
