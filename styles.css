@@ -686,8 +686,20 @@ footer{
     height: 100%;
    }
    .card__btn{
-    display: none;
+    padding: 3px;
    }
+   .card a{
+    text-decoration: none;
+    width: 100%;
+    font-size: 15px;
+   }
+
+span {
+    color: red;
+    font-size: 24px;
+    font-family:sans-serif;
+}
+
    .card p{
     font-size: 12px;
     text-transform: uppercase;
@@ -696,6 +708,7 @@ footer{
    
    .card> div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     padding: 0;
