@@ -610,7 +610,7 @@ footer{
 
 /*      TAMAÑO A TELEFENO       */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 360px) {
     main{
         background-color: black;
     }
@@ -659,87 +659,7 @@ footer{
    }
    .equipos__container{
     display: flex;
-    
-   
-   }
-   .equipos__subtitle{
-    color: #ffffff;
-    background-color: #000000;
-   }
-   .card img{
-    height: 100%;
-   }
-   .card__btn{
-    font-size: 18px;
-    padding: 5px;
-   }
-   .card p{
-    font-size: 18px;
-   }
-   .card{
-    width: 10rem;
-   }
-   .card> div{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 0;
-   }
-   
-} 
-
-
-
-
-@media screen and (max-width: 480px) {
-    main{
-        background-color: black;
-    }
-    .navbar-collapse{
-        margin: 50px;
-    }
-    .navbar li {
-        box-shadow: none;
-        width: 100%;
-    }
-    header{
-        display: none;
-    }
-    .header__equipos{
-        display: none;
-    }
-    .marcas{
-        display: none;
-    }
-    
-   .ProductosDestacados{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-   }
-   .MiniDestacadoVertical{
-    width: 90%;
-    height: 50%;
-}
-   .DestacadosHorizontal{
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin: 35px;
-    gap: 1rem;
-   }
-   .MiniDestacadoHorizontal1{
-    margin: 0;
-    height: 52%;
-    width: 64%;
-   }
-   .MiniDestacadoHorizontal2{
-    height: 52%;
-    width: 64%;
-   }
-   .equipos__container{
-    display: flex;
     
    
    }
@@ -747,9 +667,10 @@ footer{
     color: #ffffff;
     background-color: #000000;
    }
-   .card img{
-    height: 100%;
+   .card{
+   
    }
+  
    .card__btn{
     font-size: 18px;
     padding: 5px;
@@ -758,7 +679,8 @@ footer{
     font-size: 18px;
    }
    .card{
-    width: 10rem;
+    width: 150px;
+    height: 350px;
    }
    .card> div{
     display: flex;
@@ -768,3 +690,7 @@ footer{
    }
    
 } 
+
+
+
+
