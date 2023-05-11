@@ -17,7 +17,7 @@
 
     <!--------MENU DE NAVEGACION: UN NAV BASICO CENTRADO Y TAMBIEN TENDRA EL LOGO DEL SITIO PERO QUE A SU VES REPRESENTE EL INICIO DEL SITIO / INDEX.HTM.. ES DECIR INICIO NO SE ENCONTRARA COMO ELEMENTO LI-------------->
      <!------BOOSTRAP MENU, BURGUER MENU------->
-     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+     <nav class="navbar sticky-top navbar-expand-lg  navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">CanelonesGaming</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,18 +46,18 @@
     <!-------------NAV BOOSTRAP------------->
    
 
-    <header>
+    <header class="HeaderRespons">
 
     <!--------CONTENIDO DEL HEADER: TENDRA EL NOMBRE DE UN PRODUCTO DESTACADO, SEGUIDAMENTE LOS DETALLES DEL PRODUCTO CON SU BOTON DE COMPRA----------->
     <div class="content__header">
 
-            <h1 class="title__header">nombre del producto</h1>
+            <h1 class="title__header">Canelones Gaming</h1>
 
-            <p class="parrafo__header">detalles del producto destacado</p>
+            <p class="parrafo__header">Equipos y Productos al mejor precio!</p>
 
             <button class="header__btn">
 
-                <a class="btn" href="#">comprar</a>
+                <a class="btn" href="#MirarDestacados">Mira Nuestros Destacados!</a>
 
             </button>
 
@@ -85,11 +85,11 @@
     <!-------SECTION PRODUCTOS DESTACADOS NIVEL 1: TENDERMOS 3 DIV DONDE NO SERAN ARTICULOS EN ESTE CASO SERAN UNA ESPECIE DE PROMOCION O ANUNCIO DONDE TENDRAN UNA PEQUEÑA DESCRIPCION PERO DICHO PRODUCTO SE PODRAN ENCONTRAR EN LAS PAGINAS DE EQUIPOS O PRODUCTOS------->
         <section class="ProductosDestacados">
             
-                <h2 class="titulo">Productos destacados nivel 1</h2>
+                <h2 id="MirarDestacados" class="titulo">Lo mas nuevo!</h2>
             
-            <div class="MiniDestacadoVertical">
+            <div class="GpuDestacado">
                 <div class="MiniContent">
-                    <h2 class="TitleMini">nombrpe del producto</h2>
+                    <h2 class="TitleMini">CORE I9</h2>
                     <p class="ParrafoMini">Lorem ipsum dolor sit amet.</p>
                     <a class="Btn" href="#">comprar</a>
                 </div>
@@ -97,30 +97,37 @@
             
             <div class="DestacadosHorizontal">
                 
-                <div class="MiniDestacadoHorizontal1">
+                <div class="GraficaDestacado1">
                     <div class="MiniContent">
-                        <h2 class="TitleMini">nombre del producto</h2>
-                        <p class="ParrafoMini">Lorem ipsum dolor sit amet.</p>
+                        <h2 class="TitleMini">GTX 1650 super</h2>
+                        <p class="ParrafoMini">4GB</p>
                         <a class="Btn" href="#">comprar</a>
                     </div>
                 </div>
-                <div class="MiniDestacadoHorizontal2">
+                <div class="GraficaDestacado2">
                     <div class="MiniContent">
-                        <h2 class="TitleMini">nombre del producto</h2>
+                        <h2 class="TitleMini">RTX</h2>
                         <p class="ParrafoMini">Lorem ipsum dolor sit amet.</p>
                         <a class="Btn" href="#">comprar</a>
                     </div>
                 </div>
             </div>
+            <button class="header__btn">
+
+                <a class="btn" href="#MirarMasDestacados">Mira mas de nuestros productos destacados!</a>
+
+            </button>
         </section>
     <!-------SECTION PRODUCTOS DESTACADOS NIVEL 2: TENDRA LA MISMA FUNCION QUE EL NIVEL 1 PERO EN ESTE CASO SE ENCONTRARA EN FORMATO DE CAROUSEL, DE MOMENTO DICHO CAROUSEL NO TENDRA FUNCIONES HASTA APRENDER BOOSTRAP, DE MOMENTO SOLO TENDRA UN BACRAUND-COLOR------->
         <section class="slider__productos">
             
         </section>
     <!-------SECTION PRODUCTOS DESTACADOS NIVEL 3: CUMPLIRA LA MISMA FUNCION QUE EL NIVEL 1------->
-        <section class="ProductosDestacados">
-
+           
+    <section id="MirarMasDestacados" class="ProductosDestacados">
+                
             <div class="DestacadosHorizontal">
+                
 
                 <div class="MiniDestacadoHorizontal3">
                     <div class="MiniContent">

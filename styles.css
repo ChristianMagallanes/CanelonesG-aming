@@ -41,7 +41,7 @@ header{
     background-position:100%;
     background-color: black;
     box-shadow: 0px 0px 15px rgb(243, 32, 239);
-    height: 60vh;
+    height: 100vh;
 }
 
 
@@ -96,7 +96,7 @@ header{
     padding: 20px;
     align-items: center;
     height: 300px;
-    box-shadow: 0px 0px 15px white;
+    
     
 }
 
@@ -112,15 +112,14 @@ header{
     font-size: 24px;
 }
 .header__btn{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(41, 102, 233);
     border: none;
-    width: 14rem;
-    padding: 20px;
+    width: 18rem;
+    padding: 10px;
     border-radius: 20px;
-    margin-top: 30px;
 }
 .btn{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 24px;
 }
 /*2. navbar*/
@@ -204,7 +203,8 @@ header{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    height: 100vh;
+    gap: 15px;
 }
 .titulo{
     width: 100%;
@@ -215,21 +215,7 @@ header{
 
 /*   DESTACADOS   */
 
-.MiniDestacadoVertical{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    height: 35rem;
-    width: 30rem;
-    background-image: url(./assets/img/card1.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 120%;
-    border-radius: 20px;
-    
-}
+
 
 .MiniDestacadoVertical2{
     display: flex;
@@ -246,30 +232,44 @@ header{
     border-radius: 20px;
     
 }
+.GpuDestacado{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(253, 253, 253);
+    height: 35rem;
+    width: 30rem;
+    background-image: url(./assets/gpudestacado.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
 
-.MiniDestacadoHorizontal1{
+.GraficaDestacado1{
     display: flex;
     flex-direction:column;
     justify-content: center;
-    background-color: rgba(3, 3, 3, 0.267);
-    background-image: url(./assets/img/card6.jpeg);
+    background-color: rgb(247, 247, 247);
+    background-image: url(./assets/graficadestacado.png);
     background-position:center;
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:45%;
     border-radius: 30px;
     height: 24rem;
     width: 45rem;
 }
 
-.MiniDestacadoHorizontal2{
+.GraficaDestacado2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: black;
-    background-image: url(./assets/img/car3.jpeg);
+    background-color: rgb(255, 255, 255);
+    background-image: url(./assets/graficadestacado2.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:100%;
+    background-size:45%;
     border-radius: 30px;
     height: 24rem;
     width: 45rem;
@@ -317,9 +317,8 @@ header{
     color: #fff;
 }
 .Btn{
-    color: #fff;
+    color: #000000;
     background-color: rgba(0, 0, 0, 0.493);
-    box-shadow: 0px 0px 15px white;
     padding: 20px 40px;
     margin: 20px;
     border-radius: 2rem;
@@ -382,7 +381,7 @@ footer{
 /*6.equipos*/
 .equipos__subtitle{
     text-align: center;
-    color: rgb(242, 236, 236);
+    color: rgb(2, 2, 2);
     padding: 20px;
     font-size: 58px;
 }
@@ -391,7 +390,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 /*7.cards*/
@@ -420,12 +419,12 @@ footer{
     font-family: 'Lato', sans-serif;
 }
 .header__btn:hover{
-    background-color: #ffffff;
-    color: #fff;
-    box-shadow: 0px 0px 15px rgb(243, 32, 32);
+    background-color: #000000;
+    color: #fcfcfc;
 }
 
-.card__btn, .Btn:hover{
+.Btn:hover{
+    
     background-color: #000000;
     color: #ffffff;
     
@@ -614,9 +613,8 @@ footer{
     main{
         background-color: #fff;
     }
-    .logo{
-        height: 20px;
-    }
+
+/*---------NAVBAR--------*/
     .navbar-collapse{
         padding-top: 10px;
     }
@@ -626,13 +624,46 @@ footer{
         margin: 0px;
         width: 100%;
     }
-    
+/*---------HEADER--------*/    
     header{
         display: none;
+    }
+    .HeaderRespons{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        height: 23vh;
+       }
+       .content__header{
+        width: 100%;
+        height: 100%;
+        padding-top: 40px;
+        margin: 0;
+       }
+    .title__header{
+        font-size: 30px;
+    }
+    .parrafo__header{
+        font-size: 15px;
+    }
+    .header__btn{
+        background-color: rgb(12, 89, 255);
+        width: 220px;
+        padding: 0;
+        margin: 0;
+    }
+    .header__btn a{
+        color: #000000;
+        font-size: 15px;
     }
     .header__equipos{
         display: none;
     }
+
+/*-------MARCAS---------*/    
     .marcas{
         display: none;
     }
@@ -641,32 +672,71 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 0;
+    padding: 0;
+   
 
    }
-   .MiniDestacadoVertical{
-    width: 90%;
-    height: 50%;
-}
+ 
    .DestacadosHorizontal{
     display: flex;
+    text-align: center;
     flex-direction: row;
     justify-content: center;
-    margin: 35px;
-    gap: 1rem;
+    height: 30vh;
+    width: 100%;
+    margin: 10px;
+    padding: 0p;
+    gap: 10px;
    }
-   .MiniDestacadoHorizontal1{
+   .GpuDestacado{
+    width: 50%;
+    height: 30%;
+    padding: 0;
     margin: 0;
-    height: 52%;
-    width: 64%;
+}
+   .GraficaDestacado1{
+    background-size: 120%;
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
    }
-   .MiniDestacadoHorizontal2{
-    height: 52%;
-    width: 64%;
+   .GraficaDestacado2{
+    background-size: 120%;
+    background-color: #f3f3f3;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
    }
+   .Btn{
+    text-decoration: none;
+    background-color: #181717d0;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+   }
+   .TitleMini{
+    background-color: #1e2bd881;
+    font-size: 18px;
+    color: gold;
+    width: 100%;
+   }
+.ParrafoMini{
+    display: none;
+}
+
+   /*-------EQUIPOS html----------*/
+
+
    .equipos__container{
     display: flex;
     flex-direction: row;
-    
+    gap: 15px;
    
    }
    .equipos__subtitle{
@@ -675,6 +745,10 @@ footer{
     height: 90px;
    }
    
+
+   /*----------ESTILOS CARD DE EQUIPOS-----------*/
+
+
    .card{
     background-color: black;
     display: flex;
@@ -713,6 +787,11 @@ span {
     text-align: center;
     padding: 0;
    }
+
+
+
+
+  
    
 } 
 
