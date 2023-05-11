@@ -614,14 +614,19 @@ footer{
     main{
         background-color: #fff;
     }
+    .logo{
+        height: 20px;
+    }
     .navbar-collapse{
         padding-top: 10px;
     }
     .navbar li {
+        background-color: #000000;
         box-shadow: none;
         margin: 0px;
         width: 100%;
     }
+    
     header{
         display: none;
     }
