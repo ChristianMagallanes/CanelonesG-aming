@@ -146,7 +146,7 @@ header{
 .navbar ul{
     display: flex;
     margin-bottom: 1rem;
-    gap: 10px;
+    gap: 50px;
     justify-content: end;
     align-items: center;
     text-align: center;
@@ -317,11 +317,15 @@ header{
     color: #fff;
 }
 .Btn{
-    color: #000000;
-    background-color: rgba(0, 0, 0, 0.493);
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 100%;
     padding: 20px 40px;
     margin: 20px;
-    border-radius: 2rem;
+    
 }
 
 
@@ -714,12 +718,13 @@ footer{
    }
    .Btn{
     text-decoration: none;
-    background-color: #181717d0;
-    color: #fff;
+    background-color: #181717;
+    color: #ffffff;
     width: 100%;
     padding: 10px;
     margin: 0;
    }
+   
    .TitleMini{
     background-color: #1e2bd881;
     font-size: 18px;
