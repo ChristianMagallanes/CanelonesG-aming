@@ -610,7 +610,7 @@ footer{
 
 /*      TAMAÑO A TELEFENO       */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
     main{
         background-color: black;
     }
@@ -682,7 +682,7 @@ footer{
    .card> div{
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    text-align: center;
     padding: 0;
    }
    
