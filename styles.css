@@ -609,7 +609,7 @@ footer{
 
 /*      TAMAÑO A TELEFENO       */
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
     main{
         background-color: #fff;
     }
