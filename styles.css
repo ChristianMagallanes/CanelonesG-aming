@@ -659,8 +659,8 @@ footer{
    }
    .equipos__container{
     display: flex;
-    flex-direction: row;
-    padding: 0;
+    
+   
    }
    .equipos__subtitle{
     color: #ffffff;
@@ -669,8 +669,15 @@ footer{
    .card img{
     height: 100%;
    }
+   .card__btn{
+    font-size: 18px;
+    padding: 5px;
+   }
+   .card p{
+    font-size: 18px;
+   }
    .card{
-    width: 13rem;
+    width: 10rem;
     
    }
 } 
