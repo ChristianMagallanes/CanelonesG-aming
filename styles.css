@@ -611,9 +611,309 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*      TAMAÑO A TABLETS      */
+
+@media screen and (max-width: 769px) {
+    main{
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+    footer{
+        margin: 0;
+    }
+
+/*---------NAVBAR--------*/
+    .navbar-collapse{
+        padding-top: 10px;
+    }
+    .navbar li {
+        background-color: #000000;
+        box-shadow: none;
+        margin: 0px;
+        width: 100%;
+    }
+/*---------HEADER--------*/    
+    header{
+        display: none;
+    }
+    .HeaderRespons{
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        height: 100vh;
+       }
+       .content__header{
+        width: 100%;
+        height: 100%;
+        padding-top: 40px;
+        margin: 0;
+       }
+    .title__header{
+        font-size: 45px;
+    }
+    .parrafo__header{
+        font-size: 20px;
+    }
+    .header__btn{
+        background-color: rgb(12, 89, 255);
+        width: 220px;
+        padding: 0;
+        margin: 0;
+    }
+    .header__btn a{
+        color: white;
+        font-size: 18px;
+    }
+    .header__equipos{
+        display: none;
+    }
+
+/*-------MARCAS---------*/    
+    .marcas{
+        display: none;
+    }
+    
+   .ProductosDestacados{
+    display: flex;
+    height: 90vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+   
+
+   }
+ 
+   .DestacadosHorizontal{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    margin: 10px;
+    padding: 0p;
+    gap: 10px;
+   }
+   .titulo{
+    color: #000000;
+   }
+   .GpuDestacado{
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 20px 0px 20px 0px;
+    background-size: 70%;
+    width: 70%;
+    height: 40%;
+    padding: 0;
+    margin: 0;
+}
+   .GraficaDestacado1{
+    background-size: 120%;
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 0px 20px 0px 20px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   }
+   .GraficaDestacado2{
+    background-size: 120%;
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 0px 20px 0px 20px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+   }
+   .slider__productos{
+    display: none;
+   }
+   .DestacadoFinal3{
+    background-color: rgba(247, 247, 247, 0.295);
+    background-size: 82%;
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 1rem;
+    width: 70%;
+    height: 40%;
+    padding: 0;
+    margin: 0;
+   }
+   .DestacadoFinal1{
+    background-size: 120%;
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   }
+   .DestacadoFinal2{
+    background-size: 120%;
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   }
+   .Btn{
+    text-decoration: none;
+    background-color: #18171783;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+   }
+   
+   .TitleMini{
+    background-color: #fffffffd;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+   }
+.ParrafoMini{
+    display: none;
+}
+
+   /*-------EQUIPOS html----------*/
+
+
+   .equipos__container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+   
+   }
+   .equipos__subtitle , .SubtitleProductos{
+    display: none;
+    color: #000000;
+    height: 90px;
+   }
+   
+
+   /*----------ESTILOS CARD DE EQUIPOS-----------*/
+
+
+   .card{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 47%;
+    height: 10%;
+   }
+   .card img{
+    height: 100%;
+   }
+   .card__btn{
+    padding: 3px;
+   }
+   .card a{
+    text-decoration: none;
+    width: 100%;
+    font-size: 18px;
+   }
+
+span {
+    color: red;
+    font-size: 24px;
+    font-family:sans-serif;
+}
+
+   .card p{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+   }
+   
+   .card> div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+   }
+.container__productos{
+    margin: 0;
+    padding: 0;
+}
+.slide__productosD{
+    width: 100%;
+    margin-top: 240px;
+    height: 200px;
+}
+.equipos__subtitle{
+    
+}
+.banerProductos-Mous{
+    width: 100%;
+    height: 20%;
+    padding: 0;
+    margin: 0;
+}
+.banerProductos-Teclado{
+    width: 100%;
+    height: 20%;
+    margin-top: 100px ;
+    
+}
+.BanerConsolas{
+    display: none;
+}
+
+.container__consolas{
+    
+}
+
+   .productos__Mous{
+    height: 100vh;
+    margin-top: 40px;
+   }
+   .cards{
+    height: 26rem;
+    width: 20rem;
+   }
+   .cards> div{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+.cards p{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+   } 
+   
+} 
+
+
 /*      TAMAÑO A TELEFENO       */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 576px) {
     main{
         background-color: #ffffff;
         margin: 0;
@@ -896,6 +1196,7 @@ span {
    } 
    
 } 
+
 
 
 
