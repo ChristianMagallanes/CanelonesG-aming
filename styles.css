@@ -330,7 +330,7 @@ main{
 /*productos*/
 
 .slide__productosD{
-    background-image: url(./assets/consolas22.jpeg);
+    background-image: url(./assets/consolasbaner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -374,7 +374,7 @@ footer{
 
 
 /*6.equipos*/
-.equipos__subtitle{
+.equipos__subtitle ,.SubtitleProductos{
     text-align: center;
     color: rgb(2, 2, 2);
     padding: 20px;
@@ -794,7 +794,7 @@ footer{
     gap: 15px;
    
    }
-   .equipos__subtitle{
+   .equipos__subtitle , .SubtitleProductos{
     color: #000000;
     height: 90px;
    }
@@ -864,6 +864,13 @@ span {
     height: 20%;
     margin-top: 100px ;
     
+}
+.BanerConsolas{
+    display: none;
+}
+
+.container__consolas{
+    padding: 60px;
 }
 
    .productos__Mous{
