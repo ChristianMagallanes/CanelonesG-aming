@@ -851,7 +851,7 @@ span {
     height: 200px;
 }
 .equipos__subtitle{
-    background: hiden;
+    display: none;
 }
 .banerProductos-Mous{
     width: 100%;
