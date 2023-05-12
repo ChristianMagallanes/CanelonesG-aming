@@ -619,7 +619,7 @@ footer{
 
 @media screen and (max-width: 480px) {
     main{
-        background-color: #000000;
+        background-color: #ffffff;
         margin: 0;
         padding: 0;
     }
@@ -705,12 +705,12 @@ footer{
     gap: 10px;
    }
    .titulo{
-    color: #fff;
+    color: #000000;
    }
    .GpuDestacado{
     background-color: #000000;
     box-shadow: 5px  5px 30px 5px#fff;
-    border-radius: 1rem;
+    border-radius: 20px 0px 20px 0px;
     background-size: 70%;
     width: 70%;
     height: 40%;
@@ -721,6 +721,7 @@ footer{
     background-size: 120%;
     background-color: #000000;
     box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 0px 20px 0px 20px;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -730,6 +731,7 @@ footer{
     background-size: 120%;
     background-color: #000000;
     box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 0px 20px 0px 20px;
     height: 100%;
     width: 100%;
     padding: 0;
