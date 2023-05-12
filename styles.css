@@ -845,7 +845,14 @@ span {
 
 
 
-
+.banerProductos-Mous{
+    width: 100%;
+    height: 20%;
+}
+.banerProductos-Teclado{
+    width: 100%;
+    height: 20%;
+}
 
    .productos__Mous{
     height: 100vh;
