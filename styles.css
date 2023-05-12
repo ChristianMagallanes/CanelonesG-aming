@@ -16,10 +16,16 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-html{
-    background-color: #000000;
-    font-family: 'Lato', sans-serif;
+main{
+    background: linear-gradient(228deg, #509fda, #36d29a, #abe05c);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
 }
+    font-family: 'Lato', sans-serif;
+
 
 
 
@@ -39,7 +45,6 @@ header{
     background-image: url(./assets/banier1.avif);
     background-repeat: no-repeat;
     background-position:100%;
-    
     background-color: black;
     box-shadow: 0px 0px 15px rgb(243, 32, 239);
     height: 100vh;
@@ -220,12 +225,12 @@ header{
 
 
 
-.MiniDestacadoVertical2{
+.DestacadoFinal3{
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(247, 247, 247, 0.295);
     height: 35rem;
     width: 30rem;
     background-image: url(./assets/2b.png);
@@ -240,7 +245,7 @@ header{
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background-color: rgb(253, 253, 253);
+    background-color: rgba(247, 247, 247, 0.295);
     height: 35rem;
     width: 30rem;
     background-image: url(./assets/gpudestacado.png);
@@ -254,7 +259,7 @@ header{
     display: flex;
     flex-direction:column;
     justify-content: center;
-    background-color: rgb(247, 247, 247);
+    background-color: rgba(247, 247, 247, 0.295);
     background-image: url(./assets/graficadestacado.png);
     background-position:center;
     background-repeat: no-repeat;
@@ -268,7 +273,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(247, 247, 247, 0.295);
     background-image: url(./assets/graficadestacado2.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -278,11 +283,11 @@ header{
     width: 45rem;
 }
 
-.MiniDestacadoHorizontal3{
+.DestacadoFinal1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: black;
+    background-color: rgba(247, 247, 247, 0.295);
     background-image: url(./assets/mouselg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -291,11 +296,11 @@ header{
     height: 24rem;
     width: 45rem;
 }
-.MiniDestacadoHorizontal4{
+.DestacadoFinal2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: black;
+    background-color: rgba(247, 247, 247, 0.295);
     background-image: url(./assets/Xigmatek-Eros-web.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -708,7 +713,7 @@ footer{
     color: #000000;
    }
    .GpuDestacado{
-    background-color: #000000;
+    background-color: rgba(247, 247, 247, 0.295);
     box-shadow: 5px  5px 30px 5px#fff;
     border-radius: 20px 0px 20px 0px;
     background-size: 70%;
@@ -719,7 +724,7 @@ footer{
 }
    .GraficaDestacado1{
     background-size: 120%;
-    background-color: #000000;
+    background-color: rgba(247, 247, 247, 0.295);
     box-shadow: 5px  5px 30px 5px#fff;
     border-radius: 0px 20px 0px 20px;
     height: 100%;
@@ -729,7 +734,7 @@ footer{
    }
    .GraficaDestacado2{
     background-size: 120%;
-    background-color: #000000;
+    background-color: rgba(247, 247, 247, 0.295);
     box-shadow: 5px  5px 30px 5px#fff;
     border-radius: 0px 20px 0px 20px;
     height: 100%;
@@ -741,8 +746,8 @@ footer{
    .slider__productos{
     display: none;
    }
-   .MiniDestacadoVertical2{
-    background-color: #000000;
+   .DestacadoFinal3{
+    background-color: rgba(247, 247, 247, 0.295);
     background-size: 82%;
     box-shadow: 5px  5px 30px 5px#fff;
     border-radius: 1rem;
@@ -751,18 +756,18 @@ footer{
     padding: 0;
     margin: 0;
    }
-   .MiniDestacadoHorizontal3{
+   .DestacadoFinal1{
     background-size: 120%;
-    background-color: #000000;
+    background-color: rgba(247, 247, 247, 0.295);
     box-shadow: 5px  5px 30px 5px#fff;
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
    }
-   .MiniDestacadoHorizontal4{
+   .DestacadoFinal2{
     background-size: 120%;
-    background-color: #000000;
+    background-color: rgba(247, 247, 247, 0.295);
     box-shadow: 5px  5px 30px 5px#fff;
     height: 100%;
     width: 100%;
@@ -855,4 +860,22 @@ span {
 
 
 
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
 

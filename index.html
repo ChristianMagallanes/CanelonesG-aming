@@ -15,7 +15,7 @@
     
     <!---------HEADER/ENCABEZADO  ¡GENERAL! HUBICARE EL MENU DE NAVEGACION POR ENCIMA DE TODO, CON UN POSITION STICKY----------->
 
-    <!--------MENU DE NAVEGACION: UN NAV BASICO CENTRADO Y TAMBIEN TENDRA EL LOGO DEL SITIO PERO QUE A SU VES REPRESENTE EL INICIO DEL SITIO / INDEX.HTM.. ES DECIR INICIO NO SE ENCONTRARA COMO ELEMENTO LI-------------->
+    
      <!------BOOSTRAP MENU, BURGUER MENU------->
      <nav class="navbar sticky-top navbar-expand-lg  navbar-dark">
         <div class="container-fluid">
@@ -44,14 +44,15 @@
           </div>
         </div>
     </nav>
-    <!------BOOSTRAP MENU BURGUER------->
-    
-    <!-------------NAV BOOSTRAP------------->
    
+    
+    
+   
+<!--------------------(HEADER CON CLASE QUE REPRESENTE EL RESPONSIVE) EN CSS DARE ESTILOS A LA ETIQUETA HEADER PARA VERSION DE DESKTOP, PERO A LA CLASE HeaderResponsive le dare estilos utilizando los mediaquery--------------------------->
 
     <header class="HeaderRespons">
 
-    <!--------CONTENIDO DEL HEADER: TENDRA EL NOMBRE DE UN PRODUCTO DESTACADO, SEGUIDAMENTE LOS DETALLES DEL PRODUCTO CON SU BOTON DE COMPRA----------->
+    <!-------------------sera una entrada de pagina con un boton para ver destacados a la venta------------------------>
     <div class="content__header">
 
             <h1 class="title__header">Canelones Gaming</h1>
@@ -71,7 +72,7 @@
     <!---------------------MAIN------------------->
     <main>
 
-    <!----------SECTION DE MARCAS: REPRESENTARA LAS MARCAS DEL SITIO WEB----------->    
+    <!----------SECTION DE MARCAS: REPRESENTARA LAS MARCAS DEL SITIO WEB (desapareceran en vista mobil)----------->    
     
     <section class="container__marcas">
             
@@ -85,7 +86,7 @@
 
         </section>
 
-    <!-------SECTION PRODUCTOS DESTACADOS NIVEL 1: TENDERMOS 3 DIV DONDE NO SERAN ARTICULOS EN ESTE CASO SERAN UNA ESPECIE DE PROMOCION O ANUNCIO DONDE TENDRAN UNA PEQUEÑA DESCRIPCION PERO DICHO PRODUCTO SE PODRAN ENCONTRAR EN LAS PAGINAS DE EQUIPOS O PRODUCTOS------->
+    <!--------------------PRODUCTOS DESTACADOS *SERAN 3*----------------------------->
         <section class="ProductosDestacados">
             
                 <h2 id="MirarDestacados" class="titulo">Lo mas nuevo!</h2>
@@ -115,24 +116,22 @@
                     </div>
                 </div>
             </div>
+
+    <!---------------boton para ver la siguiente seccion de productos destacados------------------>
             <button class="header__btn">
-
                 <a class="btn" href="#MirarMasDestacados">Mirar mas!</a>
-
             </button>
         </section>
-    <!-------SECTION PRODUCTOS DESTACADOS NIVEL 2: TENDRA LA MISMA FUNCION QUE EL NIVEL 1 PERO EN ESTE CASO SE ENCONTRARA EN FORMATO DE CAROUSEL, DE MOMENTO DICHO CAROUSEL NO TENDRA FUNCIONES HASTA APRENDER BOOSTRAP, DE MOMENTO SOLO TENDRA UN BACRAUND-COLOR------->
-        <section class="slider__productos">
-            
-        </section>
-    <!-------SECTION PRODUCTOS DESTACADOS NIVEL 3: CUMPLIRA LA MISMA FUNCION QUE EL NIVEL 1------->
+    
+        
+    <!--------------------PRODUCTOS DESTACADOS *SERAN 3 productos*----------------------------->
            
     <section id="MirarMasDestacados" class="ProductosDestacados">
                 
             <div class="DestacadosHorizontal">
                 
 
-                <div class="MiniDestacadoHorizontal3">
+                <div class="DestacadoFinal1">
                     <div class="MiniContent">
                         <h2 class="TitleMini">nombre del producto</h2>
                         <p class="ParrafoMini">Lorem ipsum dolor sit amet.</p>
@@ -140,7 +139,7 @@
                     </div>
 
                 </div>
-                <div class="MiniDestacadoHorizontal4">
+                <div class="DestacadoFinal2">
 
                     <div class="MiniContent">
                         <h2 class="TitleMini">nombre del producto</h2>
@@ -150,7 +149,7 @@
 
                 </div>
             </div>
-            <div class="MiniDestacadoVertical2">
+            <div class="DestacadoFinal3">
 
                 <div class="MiniContent">
                     <h2 class="TitleMini">nombre dddel producto</h2>
@@ -161,6 +160,11 @@
         </section>
 
     </main>
+
+
+
+
+    
     <!-------FOOTER/PIE DE PAGINA: UN PIE DE PAGINA MUY BASICO, CON EL CORRER DE LA CURSADA SE IRA MEJORANDO------->
     <footer>
         <p>© christian magallanes 2023-2023 - Prohibida la reproducción parcial o total de la información mostrada</p>
