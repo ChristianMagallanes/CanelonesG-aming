@@ -676,7 +676,7 @@ footer{
     
    .ProductosDestacados{
     display: flex;
-    height: 100vh;
+    height: 90vh;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0;
@@ -704,8 +704,8 @@ footer{
     background-color: #000000;
     box-shadow: 5px  5px 30px 5px#fff;
     border-radius: 1rem;
-    width: 50%;
-    height: 30%;
+    width: 70%;
+    height: 40%;
     padding: 0;
     margin: 0;
 }
@@ -735,8 +735,8 @@ footer{
     background-color: #000000;
     box-shadow: 5px  5px 30px 5px#fff;
     border-radius: 1rem;
-    width: 50%;
-    height: 30%;
+    width: 70%;
+    height: 40%;
     padding: 0;
     margin: 0;
    }
