@@ -674,6 +674,7 @@ footer{
     
    .ProductosDestacados{
     display: flex;
+    height: 100vh;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0;
