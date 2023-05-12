@@ -23,8 +23,9 @@ main{
     -webkit-animation: AnimationName 9s ease infinite;
     -moz-animation: AnimationName 9s ease infinite;
     animation: AnimationName 9s ease infinite;
-}
     font-family: 'Lato', sans-serif;
+}
+    
 
 
 
@@ -37,15 +38,13 @@ main{
 
 /*   HEADER DEL INDEX, QUIENES SOMOS, CONTACTO   */
 
-header{
+.HeaderDesktop{
+    background: #f7f7f7;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/banier1.avif);
-    background-repeat: no-repeat;
-    background-position:100%;
-    background-color: black;
+    
     box-shadow: 0px 0px 15px rgb(243, 32, 239);
     height: 100vh;
 }
@@ -70,23 +69,6 @@ header{
 
 
 /*    HEADER DE PRODUCTOS.HTML   */
-
-.header__productos {
-    height: 100vh;
-    background-image: url(./assets/destacado2.png);
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    padding-left: 1rem;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-position:100%;
-    background-size: 40%;
-    background-color: black; 
-    box-shadow: 0px 0px 15px rgb(243, 32, 239);
-    
-}
-
 
 
 .header__destacado{
@@ -252,7 +234,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    
+    border-radius: 20px 0px 20px 0px;
 }
 
 .GraficaDestacado1{
@@ -264,7 +246,7 @@ header{
     background-position:center;
     background-repeat: no-repeat;
     background-size:45%;
-    border-radius: 30px;
+    border-radius: 20px 0px 20px 0px;
     height: 24rem;
     width: 45rem;
 }
@@ -278,7 +260,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size:45%;
-    border-radius: 30px;
+    border-radius: 20px 0px 20px 0px;
     height: 24rem;
     width: 45rem;
 }
@@ -292,7 +274,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size:50%;
-    border-radius: 30px;
+    border-radius: 20px 0px 20px 0px;
     height: 24rem;
     width: 45rem;
 }
@@ -305,7 +287,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size:50%;
-    border-radius: 30px;
+    border-radius: 20px 0px 20px 0px;
     height: 24rem;
     width: 45rem;
 }
@@ -382,7 +364,7 @@ footer{
     align-items: center;
     text-align: center;
     height: 5rem;
-    margin-top: 1rem;
+    margin:0;
     color: #fff;
     background-color: black;
     box-shadow: 0px 0px 15px white;
@@ -452,12 +434,20 @@ footer{
 
 /*8.productos.html*/
 .container__productos {
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(228deg, #509fda, #36d29a, #abe05c);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
     padding: 5rem 0;
 }
 
 
+
+
 .productos__Mous{
+    height: 50vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -470,11 +460,11 @@ footer{
 }
 
 .cards{
+    background-color: #fff;
     width: 14rem;
-    height: 20rem;
-    background-color: rgb(0, 0, 0);
+    height: 25rem;
     border-radius: 20px 0 ;
-    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
     
 }
 
@@ -484,6 +474,7 @@ footer{
 }
 
 .cards> div{
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -647,6 +638,7 @@ footer{
         display: none;
     }
     .HeaderRespons{
+        background: #ffffff;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -854,7 +846,27 @@ span {
 
 
 
-  
+
+   .productos__Mous{
+    height: 100vh;
+   }
+   .cards{
+    height: 18rem;
+    width: 10rem;
+   }
+   .cards> div{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+.cards p{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+   } 
    
 } 
 
