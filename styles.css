@@ -615,7 +615,9 @@ footer{
 
 @media screen and (max-width: 480px) {
     main{
-        background-color: #fff;
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
     }
 
 /*---------NAVBAR--------*/
@@ -679,6 +681,7 @@ footer{
     justify-content: center;
     gap: 0;
     padding: 0;
+    margin: 0;
    
 
    }
@@ -694,7 +697,13 @@ footer{
     padding: 0p;
     gap: 10px;
    }
+   .titulo{
+    color: #fff;
+   }
    .GpuDestacado{
+    background-color: #000000;
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 1rem;
     width: 50%;
     height: 30%;
     padding: 0;
@@ -702,7 +711,8 @@ footer{
 }
    .GraficaDestacado1{
     background-size: 120%;
-    background-color: #ffffff;
+    background-color: #000000;
+    box-shadow: 5px  5px 30px 5px#fff;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -710,16 +720,47 @@ footer{
    }
    .GraficaDestacado2{
     background-size: 120%;
-    background-color: #f3f3f3;
+    background-color: #000000;
+    box-shadow: 5px  5px 30px 5px#fff;
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
     
    }
+   .slider__productos{
+    display: none;
+   }
+   .MiniDestacadoVertical2{
+    background-color: #000000;
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 1rem;
+    width: 50%;
+    height: 30%;
+    padding: 0;
+    margin: 0;
+   }
+   .MiniDestacadoHorizontal3{
+    background-size: 120%;
+    background-color: #000000;
+    box-shadow: 5px  5px 30px 5px#fff;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   }
+   .MiniDestacadoHorizontal4{
+    background-size: 120%;
+    background-color: #000000;
+    box-shadow: 5px  5px 30px 5px#fff;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   }
    .Btn{
     text-decoration: none;
-    background-color: #181717;
+    background-color: #18171783;
     color: #ffffff;
     width: 100%;
     padding: 10px;
@@ -727,9 +768,9 @@ footer{
    }
    
    .TitleMini{
-    background-color: #1e2bd881;
+    background-color: #fffffffd;
     font-size: 18px;
-    color: gold;
+    color: rgb(0, 0, 0);
     width: 100%;
    }
 .ParrafoMini{
