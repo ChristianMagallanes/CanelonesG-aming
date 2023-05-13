@@ -584,43 +584,91 @@ footer{
     height: 80%;
 }
 
-.container-contacto{
-    padding: 50px;
-    text-align: center;
-}
-
-.informacion-redes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 251, 251);
-    text-align: center;
-    border-radius: 30px 0;
-    height: 80vh;
-}
-.redes__contactos{
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-}
-.redes__icon{
-    height: 80px;
-}
-
-.mail{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 28px;
-    background-color: #fff;
-    border-radius: 10px;
-    width: 25%;
-    height: 8%;
-}
 .info-p{
     font-size: 18px;
+}
+
+
+.ContainerContacto {  
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "... SubTitleContact SubTitleContact SubTitleContact ..."
+      "... RedesIconI instangram ... ..."
+      "... RedesIconW watsap ... ..."
+      "... RedesIconF facebook ... ..."
+      "... ... ... ... ...";
+  }
+  
+.SubTitleContact{
+    font-size: 48px;
+    color: gold;
+    text-align: center;
+    grid-area: SubTitleContact;
+}
+.RedesIconF{
+    grid-area: RedesIconF;
+    width: 80px;
+}
+
+.RedesIconI{
+    grid-area: RedesIconI;
+    width: 80px;
+}
+.RedesIconW{
+    grid-area: RedesIconW;
+    width: 80px;
+}
+.instangram{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 1rem;
+    width: 400px;
+    color: #fff;
+    font-size: 54px;
+    text-decoration: none;
+    grid-area: instangram;
+}
+.watsap{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-area: watsap;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 1rem;
+    width: 400px;
+    color: #fff;
+    font-size: 54px;
+    text-decoration: none;
+}
+.facebook{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-area: facebook;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 1rem;
+    width: 400px;
+    color: #fff;
+    font-size: 54px;
+    text-decoration: none;
+
+}
+
+.RedesHover:hover{
+    background-color: #ffffff;
+    color: #000000;
 }
 
 
