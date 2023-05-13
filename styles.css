@@ -387,7 +387,7 @@ footer{
 .equipos__subtitle {
     text-align: center;
     color: rgb(2, 2, 2);
-    padding: 20px;
+    padding-top: 80px;
     font-size: 58px;
 }
 .equipos__container{
@@ -396,6 +396,7 @@ footer{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    padding-top: 80px;
 }
 
 /*7.cards*/
@@ -721,6 +722,7 @@ footer{
         justify-content: center;
         display: block;
         height: 100vh;
+        box-shadow: none;
        }
        .content__header{
         width: 100%;
@@ -946,9 +948,7 @@ span {
     display: none;
 }
 
-.container__consolas{
-    
-}
+
 
    .productos__Mous{
     height: 100vh;
@@ -1236,9 +1236,7 @@ span {
     display: none;
 }
 
-.container__consolas{
-    
-}
+
 
    .productos__Mous{
     height: 100vh;
