@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
 /*
 1. Encabezado
 2. navbar
@@ -17,14 +19,14 @@
     text-decoration: none;
 }
 main{
-    background: linear-gradient(228deg, #509fda, #36d29a, #abe05c);
+    background: linear-gradient(94deg, #ffffff, #e3f0f5, #8f9194);
     background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 9s ease infinite;
-    -moz-animation: AnimationName 9s ease infinite;
-    animation: AnimationName 9s ease infinite;
-    font-family: 'Lato', sans-serif;
+    -webkit-animation: AnimationName 13s ease infinite;
+    -moz-animation: AnimationName 13s ease infinite;
+    animation: AnimationName 13s ease infinite;
 }
+
     
 
 
@@ -44,8 +46,6 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
-    box-shadow: 0px 0px 15px rgb(243, 32, 239);
     height: 100vh;
 }
 
@@ -71,9 +71,8 @@ main{
 /*    HEADER DE PRODUCTOS.HTML   */
 
 
-.header__destacado{
-    height: 100%;
-    
+.logo{
+    width: 80px;
 }
 
 .content__header{
@@ -109,7 +108,7 @@ main{
     border-radius: 20px;
 }
 .btn{
-    color: rgb(255, 255, 255);
+    color: rgb(41, 23, 23);
     font-size: 24px;
 }
 /*2. navbar*/
@@ -120,16 +119,16 @@ main{
     top: 0;
     align-items: center;
     padding: .1rem;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 0px 0px 15px white;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
 
 }
 
 .navbar a{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     margin: 0 .5rem;
-    font-family: 'Julius Sans One';
+    font-family: 'Heebo';
     
 }
 
@@ -145,11 +144,8 @@ main{
 }
 
 .navbar li{
-    background-color: rgb(0, 0, 0);
-    border-radius: 1rem;
-    padding: 5px;
     display: inline-block;
-    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
 
 
@@ -228,8 +224,8 @@ main{
     text-align: center;
     justify-content: center;
     background-color: rgba(247, 247, 247, 0.295);
-    height: 35rem;
-    width: 30rem;
+    height: 40rem;
+    width: 25rem;
     background-image: url(./assets/gpudestacado.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -320,22 +316,17 @@ main{
 }
 
 
-.slider__productos{
-    background-image: url(./assets/bannerrrrr.png);
-    background-position: center;
-    background-size: 100%;
-    
-}
+
 
 /*productos*/
 
-.slide__productosD{
+.BanerrConsolas{
     background-image: url(./assets/consolasbaner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 60vh;
-    display: none;
+    
 }
 
 .DestacadosHorizontal{
@@ -399,9 +390,9 @@ footer{
     padding-top: 80px;
 }
 
-/*7.cards*/
+/*7.card*/
 .card{
-    width: 16rem;
+    width: 12rem;
     border-radius: 20px 0 ;
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
@@ -411,16 +402,14 @@ footer{
     padding: 10px;
 }
 
-.card p{
-    font-size: 18px;
-    text-align: center;
-}
+
 
 .card__btn{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    background-color: #ff2020;
-    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 5px;
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
 }
@@ -444,121 +433,25 @@ footer{
 }
 
 /*8.productos.html*/
-.container__productos {
-    background: linear-gradient(228deg, #509fda, #36d29a, #abe05c);
-    background-size: 600% 600%;
-
-    -webkit-animation: AnimationName 9s ease infinite;
-    -moz-animation: AnimationName 9s ease infinite;
-    animation: AnimationName 9s ease infinite;
-    padding: 5rem 0;
-}
 
 
 
 
-.productos__Mous{
-    height: 50vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 50px;
-    gap: 10px;
-}
-.teclados {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 300px;
-    gap: 10px;
-}
-
-.cards{
-    background-color: #fff;
-    width: 14rem;
-    height: 25rem;
-    border-radius: 20px 0 ;
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
-    
-}
-
-.cards img{
-    width: 100%;
-    padding: 10px;
-}
-
-.cards> div{
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-.cards, .card p{
-    font-size: 24px;
-    color: #000000;
-    text-align: center;
-}
-
-.banerProductos-Teclado{
-    width: 550px;
-    height: 300px;
-    background-image: url(./assets/teclados2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    border-radius:1rem ;
-    margin-left: .10rem;
-    box-shadow: 0px 0px 15px rgb(255, 0, 0);
-}
-
-.banerProductos-Mous{
-    width: 550px;
-    height: 300px;
-    background-image: url(./assets/mouse2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    border-radius:1rem ;
-    margin-right: .10rem;
-    box-shadow: 0px 0px 15px rgb(243, 32, 32);
-}
 
 
-.productos__teclado{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-}
 
-.BanerConsolas {
-    background-image: url(./assets/baner-vertical.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 550px;
-    height: 800px;
-    border-radius:1rem ;
-    margin-right: 20px;
-    border: solid black;
-}
 
-.productos__consolas{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 100px;
-    gap: 10px;
-}
 
-.container__consolas {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
+
+
+
+
+
+
+
+
+
+
 
 .container-quienesSomos{
     padding: 50px;
@@ -680,7 +573,238 @@ footer{
 
 
 
+/*      TAMAÑO PANTALLAS GRANDES DE ESCRITORIO      */
 
+@media screen and (max-width: 1920px) {
+    main{
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+    footer{
+        margin: 0;
+    }
+
+
+    
+    
+/*---------HEADER--------*/    
+    
+    .HeaderRespons{
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        height: 90vh;
+        box-shadow: none;
+       }
+       .content__header{
+        width: 100%;
+        height: 100%;
+        padding-top: 40px;
+        margin: 0;
+       }
+    .title__header{
+        font-size: 45px;
+    }
+    .parrafo__header{
+        font-size: 20px;
+    }
+    .header__btn{
+        background-color: rgb(12, 89, 255);
+        width: 220px;
+        padding: 0;
+        margin: 0;
+    }
+    .header__btn a{
+        color: white;
+        font-size: 18px;
+    }
+    .header__equipos{
+        display: none;
+    }
+
+/*-------MARCAS---------*/    
+  
+    
+
+
+
+
+/*         PRODUCTOS DESTACADOS DE LA PAGINA DE INICIO        */
+
+
+
+
+   .ProductosDestacados{
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+   }
+
+   
+   .titulo{
+    color: #000000;
+   }
+   .DestacadosHorizontal{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+   }
+   
+   .GpuDestacado{
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 20px 0px 20px 0px;
+    background-size: 40%;
+    width: 50%;
+    height: 40%;
+    padding: 0;
+    margin: 0;
+}
+   .GraficaDestacado1{
+    background-size: 50%;
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 0px 20px 0px 20px;
+    height: 120%;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+   }
+   .GraficaDestacado2{
+    background-size: 50%;
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 0px 20px 0px 20px;
+    height: 120%;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+    
+   }
+ 
+   
+   .DestacadoFinal1{
+    background-size: 50%;
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 0px 20px 0px 20px;
+    height: 120%;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+   }
+   .DestacadoFinal2{
+    background-size: 50%;
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 0px 20px 0px 20px;
+    height: 120%;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+   }
+   .DestacadoFinal3{
+    background-color: rgba(247, 247, 247, 0.295);
+    box-shadow: 5px  5px 30px 5px#fff;
+    border-radius: 20px 0px 20px 0px;
+    background-size: 40%;
+    width: 50%;
+    height: 40%;
+    padding: 0;
+    margin: 0;
+   }
+
+   
+/*   BOTON DE LOS PRODUCTOS DE LA PAGINA DE INICIO  */
+   .Btn{
+    text-decoration: none;
+    background-color: #e4000083;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+   }
+
+   
+   /*  TITULO QUE VA EN EL PRODUCTO DESTACADO  */
+   .TitleMini{
+    background-color: #fffffffd;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+   }
+.ParrafoMini{
+    display: none;
+}
+
+   /*-------EQUIPOS html----------*/
+
+
+   .equipos__container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+   
+   }
+
+   /*   SUBTITULO DE LA PAGINA DE EQUIPOS "EJEMPLO, INTEL, AMD. RYZEN "  */
+   .equipos__subtitle{
+    display: none;
+    color: #000000;
+    height: 90px;
+   }
+   
+
+   /*----------ESTILOS CARD DE EQUIPOS-----------*/
+   
+span {
+    color: red;
+    font-size: 24px;
+    font-family:sans-serif;
+}
+
+   .card p{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+   }
+   
+   .card> div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+   }
+
+
+   /* PRODUCTOS.HTML  */
+
+
+
+
+
+.equipos__subtitle{
+    display: block;
+}
+  
+   
+} 
 
 
 
@@ -704,9 +828,6 @@ footer{
         padding-top: 10px;
     }
     .navbar li {
-        background-color: #000000;
-        box-shadow: none;
-        margin: 0px;
         width: 100%;
     }
 /*---------HEADER--------*/    
@@ -721,7 +842,7 @@ footer{
         align-items: center;
         justify-content: center;
         display: block;
-        height: 100vh;
+        height: 70vh;
         box-shadow: none;
        }
        .content__header{
@@ -752,12 +873,12 @@ footer{
 
 /*-------MARCAS---------*/    
     .marcas{
-        display: none;
+        
     }
     
    .ProductosDestacados{
     display: flex;
-    height: 90vh;
+    height: 120vh;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0;
@@ -785,29 +906,29 @@ footer{
     background-color: rgba(247, 247, 247, 0.295);
     box-shadow: 5px  5px 30px 5px#fff;
     border-radius: 20px 0px 20px 0px;
-    background-size: 70%;
-    width: 70%;
+    background-size: 50%;
+    width: 50%;
     height: 40%;
     padding: 0;
     margin: 0;
 }
    .GraficaDestacado1{
-    background-size: 120%;
+    background-size: 55%;
     background-color: rgba(247, 247, 247, 0.295);
     box-shadow: 5px  5px 30px 5px#fff;
     border-radius: 0px 20px 0px 20px;
     height: 100%;
-    width: 100%;
+    width: 50%;
     padding: 0;
     margin: 0;
    }
    .GraficaDestacado2{
-    background-size: 120%;
+    background-size: 55%;
     background-color: rgba(247, 247, 247, 0.295);
     box-shadow: 5px  5px 30px 5px#fff;
     border-radius: 0px 20px 0px 20px;
     height: 100%;
-    width: 100%;
+    width: 50%;
     padding: 0;
     margin: 0;
     
@@ -885,8 +1006,8 @@ footer{
     background-color: black;
     display: flex;
     justify-content: center;
-    width: 47%;
-    height: 10%;
+    width: 35%;
+    
    }
    .card img{
     height: 100%;
@@ -919,16 +1040,8 @@ span {
     text-align: center;
     padding: 0;
    }
-.container__productos{
-    margin: 0;
-    padding: 0;
-}
-.slide__productosD{
-    width: 100%;
-    margin-top: 240px;
-    height: 200px;
-    display: block;
-}
+
+
 .equipos__subtitle{
     display: block;
 }
@@ -944,40 +1057,13 @@ span {
     margin-top: 100px ;
     
 }
-.BanerConsolas{
-    display: none;
-}
 
-
-
-   .productos__Mous{
-    height: 100vh;
-    margin-top: 50px;
-   }
-   .cards{
-    height: 26rem;
-    width: 20rem;
-   }
-   .cards> div{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 0;
-}
-.cards p{
-    font-size: 16px;
-    text-transform: uppercase;
-    margin: 0;
-   } 
-   
 } 
 
 
 /*      TAMAÑO A TELEFENO       */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 425px) {
     main{
         
         background-color: #ffffff;
@@ -990,12 +1076,12 @@ span {
 
 /*---------NAVBAR--------*/
     .navbar-collapse{
+      
+        
         padding-top: 10px;
+       
     }
     .navbar li {
-        background-color: #000000;
-        box-shadow: none;
-        margin: 0px;
         width: 100%;
     }
 /*---------HEADER--------*/    
@@ -1010,7 +1096,7 @@ span {
         align-items: center;
         justify-content: center;
         display: block;
-        height: 100vh;
+        height: 70vh;
        }
        .content__header{
         width: 100%;
@@ -1207,16 +1293,8 @@ span {
     text-align: center;
     padding: 0;
    }
-.container__productos{
-    margin: 0;
-    padding: 0;
-}
-.slide__productosD{
-    width: 100%;
-    margin-top: 150px;
-    height: 200px;
-    display: block;
-}
+
+
 .equipos__subtitle{
     display: block;
 }
@@ -1232,32 +1310,12 @@ span {
     margin-top: 100px ;
     
 }
-.BanerConsolas{
-    display: none;
-}
 
 
 
-   .productos__Mous{
-    height: 100vh;
-   }
-   .cards{
-    height: 18rem;
-    width: 10rem;
-   }
-   .cards> div{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 0;
-}
-.cards p{
-    font-size: 16px;
-    text-transform: uppercase;
-    margin: 0;
-   } 
+
+  
+
    
 } 
 
