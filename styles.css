@@ -1194,7 +1194,7 @@ footer {
 
 @media screen and (max-width: 425px) {
     main {
-
+        text-align: center;
         background-color: #ffffff;
         margin: 0;
         padding: 0;
