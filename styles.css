@@ -1491,6 +1491,7 @@ footer {
 
 
     .equipos__container {
+        text-align: center;
         display: flex;
         flex-direction: row;
         gap: 15px;
@@ -1551,6 +1552,7 @@ footer {
 
 
     .equipos__subtitle {
+        text-align: center;
         display: block;
     }
 
