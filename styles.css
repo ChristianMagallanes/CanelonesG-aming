@@ -1383,11 +1383,12 @@ footer {
 
     .ProductosDestacados {
         display: flex;
-        height: 90vh;
+        height: 100vh;
         flex-wrap: wrap;
         justify-content: center;
         gap: 25px;
         margin: 10px;
+        padding: 0;
 
 
     }
@@ -1511,7 +1512,7 @@ footer {
         background-size: 70%;
         width: 15rem;
         height: 13rem;
-        margin-top: 10px;
+        margin-top: 50px;
     }
 
     .GraficaDestacado1 {
