@@ -264,7 +264,7 @@ main {
 .equipos__subtitle {
     text-align: center;
     color: rgb(2, 2, 2);
-    padding: 80px;
+    padding: 0px;
     font-size: 58px;
     font-family: 'Russo One', sans-serif;
 }
